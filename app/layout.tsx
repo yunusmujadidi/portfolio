@@ -3,7 +3,6 @@ import { Bricolage_Grotesque, Oswald } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 import { cn } from "@/lib/utils";
-import GrainEffect from "@/components/visualEffects/GrainEffect";
 import Cursor from "@/components/Cursor";
 
 const MainFont = Bricolage_Grotesque({ subsets: ["latin"] });
@@ -32,8 +31,6 @@ export default function RootLayout({
           PantonFont.variable
         )}
       >
-        <GrainEffect />
-        <Cursor color="#fff" />
         {children}
       </body>
     </html>
