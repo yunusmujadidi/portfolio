@@ -3,7 +3,6 @@ import { Bricolage_Grotesque, Oswald } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 import { cn } from "@/lib/utils";
-import Cursor from "@/components/Cursor";
 
 const MainFont = Bricolage_Grotesque({ subsets: ["latin"] });
 const OswaldFont = Oswald({ subsets: ["latin"], variable: "--font-oswald" });
@@ -12,6 +11,9 @@ const PantonFont = localFont({
   variable: "--font-panton",
 });
 
+
+
+<div>asdasdas<h1>asdasd</h1></div>
 export const metadata: Metadata = {
   title: "Ahmad Yunus Mujadidi Portfolio",
   description: "Ahmad Yunus Mujadidi Portfolio",
