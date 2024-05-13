@@ -1,13 +1,8 @@
 import Link from "next/link";
 import React from "react";
-import Cursor from "@/components/Cursor";
-import GrainEffect from "@/components/visualEffects/GrainEffect";
-
 const page = () => {
   return (
     <>
-      <GrainEffect />
-      <Cursor color="#fff" />
       <div className="h-screen p-20">
         <div className="text-white text-5xl flex flex-row justify-content items-center space-x-2 mx-auto">
           <a className="hover:underline" href="/portfolio/tailwind">

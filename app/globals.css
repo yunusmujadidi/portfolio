@@ -2,20 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.custom-bg {
-  @apply bg-[url('https://images.pexels.com/photos/15475219/pexels-photo-15475219/free-photo-of-hill-in-black-and-white.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')];
-}
-
 body {
-  background: black;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-
-  .before-content-none::before {
-    content: "";
-  }
+  background: #111010;
 }
