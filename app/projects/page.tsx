@@ -1,14 +1,14 @@
-export default function Home() {
+import React from "react";
+
+const page = () => {
   return (
     <div className="text-white">
-      <h1 className="font-semibold text-2xl">
-        hello there, i&apos;m Yunus 👋{" "}
-      </h1>
+      <h1 className="font-semibold text-2xl">my projects and portfolio</h1>
       <p className="mt-10 text-slate-400">
         i am a software engineer and a self-taught designer. i am passionate
-        about building things that live on the internet. i specialize in
-        building exceptional websites, applications, and everything in between.
+        about building things that live on the internet.
       </p>
+      <hr className="mt-5 opacity-30" />
       <p className="mt-5 text-slate-300">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
         voluptas distinctio ab in molestiae doloremque doloribus facilis nihil
@@ -22,11 +22,13 @@ export default function Home() {
         consequuntur iste eligendi doloremque ullam cumque temporibus explicabo
         asperiores necessitatibus expedita eos repudiandae! Unde, pariatur non.
       </p>
+      <hr className="mt-5 opacity-30" />
       <p className="mt-5 text-slate-400">
         i am a software engineer and a self-taught designer. i am passionate
         about building things that live on the internet. i specialize in
         building exceptional websites, applications, and everything in between.
       </p>
+      <hr className="mt-5 opacity-30" />
       <p className="mt-5 text-slate-300">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
         reprehenderit doloribus, corporis perspiciatis sed delectus sunt quod
@@ -54,4 +56,6 @@ export default function Home() {
       </p>
     </div>
   );
-}
+};
+
+export default page;
