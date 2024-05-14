@@ -1,5 +1,11 @@
 import React from "react";
 
+export const metadata = {
+  title: "my projects",
+  description:
+    "i am a software engineer and a self-taught designer. i am passionate about building things that live on the internet.",
+};
+
 const page = () => {
   return (
     <div className="text-white">
@@ -53,6 +59,12 @@ const page = () => {
         mollitia similique dignissimos pariatur, vel repellendus illum tempore.
         Porro quasi doloribus ipsa expedita optio voluptas quibusdam aut quas
         illo?
+      </p>
+      <hr className="mt-5 opacity-30" />
+      <p className="mt-5 text-slate-400">
+        i am a software engineer and a self-taught designer. i am passionate
+        about building things that live on the internet. i specialize in
+        building exceptional websites, applications, and everything in between.
       </p>
     </div>
   );

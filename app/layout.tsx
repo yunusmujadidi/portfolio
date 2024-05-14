@@ -3,8 +3,9 @@ import { Bricolage_Grotesque } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 import { cn } from "@/lib/utils";
-import Maxwidthwrapper from "@/lib/MaxWidthWrapper";
+import { ViewTransitions } from "next-view-transitions";
 import Navbar from "./Navbar";
+import { Analytics } from "@vercel/analytics/react";
 
 const MainFont = Bricolage_Grotesque({ subsets: ["latin"] });
 const PantonFont = localFont({
@@ -12,8 +13,12 @@ const PantonFont = localFont({
   variable: "--font-panton",
 });
 export const metadata: Metadata = {
-  title: "Ahmad Yunus Mujadidi Portfolio",
-  description: "Ahmad Yunus Mujadidi Portfolio",
+  metadataBase: new URL("https://yynoes.me"),
+  title: {
+    default: "yynoes portfolio",
+    template: "%s | yynoes portfolio",
+  },
+  description: "Software Engineer.",
 };
 
 export default function RootLayout({
@@ -22,19 +27,22 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={cn(
-          MainFont.className,
-          PantonFont.variable,
-          "max-w-2xl flex flex-col md:flex-row mx-4 mt-8 lg:mx-auto"
-        )}
-      >
-        <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
-          <Navbar />
-          {children}
-        </main>
-      </body>
-    </html>
+    <ViewTransitions>
+      <html lang="en">
+        <body
+          className={cn(
+            MainFont.className,
+            PantonFont.variable,
+            "max-w-2xl flex flex-col md:flex-row mx-4 mt-8 lg:mx-auto"
+          )}
+        >
+          <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
+            <Navbar />
+            {children}
+            <Analytics />
+          </main>
+        </body>
+      </html>
+    </ViewTransitions>
   );
 }
