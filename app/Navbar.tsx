@@ -57,13 +57,13 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="flex flex-row gap-4 text-white">
-        <Link
+        <a
           href="https://github.com/yunusmujadidi/portfolio"
           target="_blank"
           className=" hover:text-slate-100/70 cursor-pointer"
         >
           <GithubIcon />
-        </Link>
+        </a>
         {isDark ? (
           <Sun
             className=" transition-all duration-300 cursor-pointer text-white hover:text-slate-100/70"

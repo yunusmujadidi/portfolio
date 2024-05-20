@@ -18,13 +18,13 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <div className="text-white">
+    <div className="text-white mb-10">
       <h1 className="font-semibold text-2xl tracking-tighter">
         hello there, i&apos;m Yunus 👋{" "}
       </h1>
       <div>
         <p className="mt-10 tracking-wider font-light text-balance text-slate-300">
-          a passionate and dedicated fresh graduate CS major from Universitas
+          passionate and dedicated fresh graduate CS major from Universitas
           Negeri Semarang as a front-end dev. With a strong foundation in
           programming principles and web development technologies, I am very
           confident in building modern and responsive web applications using
@@ -80,21 +80,21 @@ export default function Home() {
         <div className="flex flex-row mt-10 justify-between group ">
           <p className=" text-slate-200 group-hover:underline">
             Let&apos;s Connect{" "}
-            <ArrowRight className="inline transition-all duration-300 group-hover:ml-5" />
+            <ArrowRight className="w-6 inline transition-all duration-300 group-hover:ml-5 group-hover:w-5" />
           </p>
           <div className="flex gap-6">
-            <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=yunusmujadidi@gmail.com&su=SUBJECT&body=BODY">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=yunusmujadidi@gmail.com">
               <Mail className=" transition-all duration-300 cursor-pointer text-white hover:text-slate-100/70" />
-            </Link>
-            <Link href="http://linkedin.com/in/yunusmujadidi" target="_blank">
+            </a>
+            <a href="http://linkedin.com/in/yunusmujadidi" target="_blank">
               <Linkedin className=" transition-all duration-300 cursor-pointer text-white hover:text-slate-100/70" />
-            </Link>
-            <Link href="http://github.com/yunusmujadidi" target="_blank">
+            </a>
+            <a href="http://github.com/yunusmujadidi" target="_blank">
               <Github className=" transition-all duration-300 cursor-pointer text-white hover:text-slate-100/70" />
-            </Link>
-            <Link href="http://x.com/yynoes" target="_blank">
+            </a>
+            <a href="http://x.com/yynoes" target="_blank">
               <X className=" transition-all duration-300 cursor-pointer text-white hover:text-slate-100/70" />
-            </Link>
+            </a>
           </div>
         </div>
       </div>

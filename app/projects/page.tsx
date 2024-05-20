@@ -17,9 +17,15 @@ const page = () => {
         are some of my projects and portfolio.
       </p>
       <hr className="mt-5 opacity-30" />
-      <h1 className="font-semibold text-2xl mt-5">
-        anicase <ArrowUpRight className="w-3 h-3 inline mb-3" />
-      </h1>
+      <a
+        href="https://github.com/yunusmujadidi/anicase"
+        className="hover:text-slate-300"
+        target="_blank"
+      >
+        <h1 className="font-semibold text-2xl mt-5">
+          anicase <ArrowUpRight className="w-3 h-3 inline mb-3" />
+        </h1>
+      </a>
       <p className="mt-5 text-slate-300">
         custom phone case user-friendly e-commerce platform built with Next.js
         for customizing and purchasing phone cases. Users can upload photos,
@@ -33,6 +39,7 @@ const page = () => {
       <a
         className="hover:text-slate-300"
         href="https://www.harapancharityfoundation.tech/"
+        target="_blank"
       >
         <h1 className="font-semibold text-2xl mt-5">
           harapancharityfoundation website{" "}
@@ -46,9 +53,9 @@ const page = () => {
       </p>
       <hr className="mt-5 opacity-30" />
       <a
-        href="
-      https://gamehub.yynoes.me/"
+        href="https://gamehub.yynoes.me/"
         className="hover:text-slate-300"
+        target="_blank"
       >
         <h1 className="font-semibold text-2xl mt-5">
           game-hub <ArrowUpRight className="w-3 h-3 inline mb-3" />
@@ -62,9 +69,13 @@ const page = () => {
         loading techniques.
       </p>
       <hr className="mt-5 opacity-30" />
-      <a className="hover:text-slate-300" href=" https://indobert.yynoes.me/">
+      <a
+        className="hover:text-slate-300"
+        href=" https://indobert.yynoes.me/"
+        target="_blank"
+      >
         <h1 className="font-semibold text-2xl mt-5">
-          indonesia hatespeech detection using fine-tuned bert{" "}
+          indonesia hatespeech detection{" "}
           <ArrowUpRight className="w-3 h-3 inline mb-3" />
         </h1>
       </a>
