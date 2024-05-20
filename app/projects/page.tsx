@@ -1,4 +1,5 @@
 import React from "react";
+import { ArrowUpRight } from "lucide-react";
 
 export const metadata = {
   title: "my projects",
@@ -8,63 +9,69 @@ export const metadata = {
 
 const page = () => {
   return (
-    <div className="text-white">
+    <div className="text-white tracking-wide mb-10 lowercase">
       <h1 className="font-semibold text-2xl">my projects and portfolio</h1>
-      <p className="mt-10 text-slate-400">
-        i am a software engineer and a self-taught designer. i am passionate
-        about building things that live on the internet.
+      <p className="mt-10 text-slate-300">
+        on my journey i have built some projects as my excersises and some of my
+        personal projects. i have also built some projects for my clients. here
+        are some of my projects and portfolio.
       </p>
       <hr className="mt-5 opacity-30" />
+      <h1 className="font-semibold text-2xl mt-5">
+        anicase <ArrowUpRight className="w-3 h-3 inline mb-3" />
+      </h1>
       <p className="mt-5 text-slate-300">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
-        voluptas distinctio ab in molestiae doloremque doloribus facilis nihil
-        fuga, magni autem tenetur quam sit ratione deleniti, eligendi
-        exercitationem vitae error velit. Aliquam unde reprehenderit provident
-        in! Labore explicabo cum corporis provident ab voluptates nihil eligendi
-        porro quis esse id perferendis, rem, qui corrupti praesentium ea veniam
-        doloremque unde non iure at recusandae! Nam quos rem quidem sit!
-        Voluptatem, sunt! Possimus facilis fugit vel repellat perspiciatis harum
-        reprehenderit impedit nesciunt excepturi distinctio, aliquam sint omnis
-        consequuntur iste eligendi doloremque ullam cumque temporibus explicabo
-        asperiores necessitatibus expedita eos repudiandae! Unde, pariatur non.
+        custom phone case user-friendly e-commerce platform built with Next.js
+        for customizing and purchasing phone cases. Users can upload photos,
+        preview their designs, and leave reviews. Implemented with React
+        components, Tailwind CSS, and optimized image handling. Set up with
+        ESLint, environment variables, and comprehensive git configuration.
+        Supports multiple package managers for development.
       </p>
+
       <hr className="mt-5 opacity-30" />
-      <p className="mt-5 text-slate-400">
-        i am a software engineer and a self-taught designer. i am passionate
-        about building things that live on the internet. i specialize in
-        building exceptional websites, applications, and everything in between.
-      </p>
-      <hr className="mt-5 opacity-30" />
+      <a
+        className="hover:text-slate-300"
+        href="https://www.harapancharityfoundation.tech/"
+      >
+        <h1 className="font-semibold text-2xl mt-5">
+          harapancharityfoundation website{" "}
+          <ArrowUpRight className="w-3 h-3 inline mb-3" />
+        </h1>
+      </a>
       <p className="mt-5 text-slate-300">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
-        reprehenderit doloribus, corporis perspiciatis sed delectus sunt quod
-        voluptas molestiae soluta quas accusamus nisi recusandae? Minus libero
-        labore reprehenderit ducimus ratione. Facilis libero molestiae ducimus
-        eum veniam consectetur maiores, expedita atque voluptatibus. Nam
-        blanditiis quisquam labore excepturi eligendi natus quaerat illum,
-        aspernatur beatae nisi maiores facilis quos quas in, asperiores ea! Ea
-        molestias provident adipisci beatae quisquam alias eligendi maxime
-        quibusdam quis dolorem ipsa, laborum obcaecati perspiciatis nemo
-        voluptatum a id et tempore amet vitae mollitia magnam nostrum iste
-        error. Tenetur eveniet incidunt dolores excepturi eaque animi et illo
-        veniam a. Dolore sunt illo fugiat eligendi provident eaque nam ipsa
-        blanditiis minima quo dolorem non, similique suscipit asperiores nostrum
-        earum voluptates repudiandae sapiente amet reprehenderit molestiae quod.
-        Optio laboriosam tenetur praesentium sapiente fugit recusandae? Dolorum
-        quae deserunt id dignissimos, distinctio ratione dolore accusamus
-        voluptatem esse iste libero aut veritatis maxime aspernatur voluptates
-        eveniet deleniti totam necessitatibus animi, quas fugiat, culpa quis.
-        Rerum minima omnis quis ratione consectetur distinctio possimus porro.
-        Quae, ab nobis eligendi delectus aliquam ut iure vitae. Iure error id
-        mollitia similique dignissimos pariatur, vel repellendus illum tempore.
-        Porro quasi doloribus ipsa expedita optio voluptas quibusdam aut quas
-        illo?
+        a non-profit organization website built with Next.js. The website is
+        responsive and user-friendly. Provides vital information about the org
+        and more fitures coming soon.
       </p>
       <hr className="mt-5 opacity-30" />
-      <p className="mt-5 text-slate-400">
-        i am a software engineer and a self-taught designer. i am passionate
-        about building things that live on the internet. i specialize in
-        building exceptional websites, applications, and everything in between.
+      <a
+        href="
+      https://gamehub.yynoes.me/"
+        className="hover:text-slate-300"
+      >
+        <h1 className="font-semibold text-2xl mt-5">
+          game-hub <ArrowUpRight className="w-3 h-3 inline mb-3" />
+        </h1>
+      </a>
+      <p className="mt-5 text-slate-300">
+        developed a responsive and user-friendly web application built with
+        React and Chakra UI, leveraging the RAWG API to fetch and display video
+        game data, implementing features such as search functionality, genre
+        filtering and optimizing performance through code-splitting and lazy
+        loading techniques.
+      </p>
+      <hr className="mt-5 opacity-30" />
+      <a className="hover:text-slate-300" href=" https://indobert.yynoes.me/">
+        <h1 className="font-semibold text-2xl mt-5">
+          indonesia hatespeech detection using fine-tuned bert{" "}
+          <ArrowUpRight className="w-3 h-3 inline mb-3" />
+        </h1>
+      </a>
+      <p className="mt-5 text-slate-300">
+        an NLP fine tuning model using BERT pre-trained and SVM for detecting
+        Indonesian hate speech tweet with 86% accuracy. Using Python for
+        classify and Next.js for the web app.
       </p>
     </div>
   );

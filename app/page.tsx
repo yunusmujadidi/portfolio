@@ -1,4 +1,11 @@
-import { ArrowRight, ArrowUpRight, Github, Linkedin, X } from "lucide-react";
+import {
+  ArrowRight,
+  ArrowUpRight,
+  Github,
+  Linkedin,
+  Mail,
+  X,
+} from "lucide-react";
 import Image from "next/image";
 
 import { Link } from "next-view-transitions";
@@ -17,11 +24,11 @@ export default function Home() {
       </h1>
       <div>
         <p className="mt-10 tracking-wider font-light text-balance text-slate-300">
-          a passionate front-end dev and dedicated fresh graduate CS major from
-          Universitas Negeri Semarang. With a strong foundation in programming
-          principles and web development technologies, I am very confident in
-          building modern and responsive web applications using cutting-edge
-          frameworks like{" "}
+          a passionate and dedicated fresh graduate CS major from Universitas
+          Negeri Semarang as a front-end dev. With a strong foundation in
+          programming principles and web development technologies, I am very
+          confident in building modern and responsive web applications using
+          cutting-edge frameworks like{" "}
           <Badge href="https://react.dev">
             <svg
               width="14"
@@ -43,21 +50,20 @@ export default function Home() {
               width="14"
               height="14"
             />
-            Next.js.
+            Next.js
           </Badge>{" "}
-          Throughout my academic journey, online courses and internship
+          . Throughout my academic journey, online courses and internship
           experiences, I have honed my skills in front-end and back-end
           development, version control, problem-solving, and collaboration.
         </p>
         <p className="mt-10 tracking-wider font-light text-balance text-slate-300">
           i am driven by a desire to contribute to dynamic teams, continuously
-          learn and grow as a software engineer, and create exceptional digital
-          experiences and also i am currently seeking opportunities to work with
-          talented individuals and companies to build innovative and impactful
-          products.
+          learn and grow as a software engineer, and create wonderful products
+          and i am currently seeking opportunities to work with talented
+          individuals or companies to build innovative and impactful products.
         </p>
         <p className="mt-10 tracking-wider font-light text-balance text-slate-300">
-          in addition to my skills and experience, I have also working on
+          in addition to my skills and experience, I also have working on
           various{" "}
           <Link className=" text-white hover:underline" href="/projects">
             projects
@@ -77,6 +83,9 @@ export default function Home() {
             <ArrowRight className="inline transition-all duration-300 group-hover:ml-5" />
           </p>
           <div className="flex gap-6">
+            <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=yunusmujadidi@gmail.com&su=SUBJECT&body=BODY">
+              <Mail className=" transition-all duration-300 cursor-pointer text-white hover:text-slate-100/70" />
+            </Link>
             <Link href="http://linkedin.com/in/yunusmujadidi" target="_blank">
               <Linkedin className=" transition-all duration-300 cursor-pointer text-white hover:text-slate-100/70" />
             </Link>
