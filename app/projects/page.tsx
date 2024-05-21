@@ -18,7 +18,7 @@ const page = () => {
       </p>
       <hr className="mt-5 opacity-30" />
       <a
-        href="https://github.com/yunusmujadidi/anicase"
+        href="https://anicase.yynoes.me/"
         className="hover:text-slate-300"
         target="_blank"
       >
