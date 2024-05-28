@@ -12,10 +12,26 @@ const page = () => {
     <div className="text-white tracking-wide mb-10 lowercase">
       <h1 className="font-semibold text-2xl">my projects and portfolio</h1>
       <p className="mt-10 text-slate-300">
-        on my journey i have built some projects as my excersises and some of my
+        on my journey i have built some projects as my exercises and some of my
         personal projects. i have also built some projects for my clients. here
         are some of my projects and portfolio.
       </p>
+
+      <a
+        href="https://kayukaya.yynoes.me/"
+        className="hover:text-slate-300"
+        target="_blank"
+      >
+        <h1 className="font-semibold text-2xl mt-5">
+          KayuKaya Living <ArrowUpRight className="w-3 h-3 inline mb-3" />
+        </h1>
+      </a>
+      <p className="mt-5 text-slate-300">
+        Custom furniture solutions for interiors and exteriors. Specialized in
+        high-end hospitality projects, offering bespoke designs and sustainable
+        practices. Built with Next.js, Tailwind CSS, Typescript, and Shadcn-ui.
+      </p>
+
       <hr className="mt-5 opacity-30" />
       <a
         href="https://anicase.yynoes.me/"
@@ -27,12 +43,9 @@ const page = () => {
         </h1>
       </a>
       <p className="mt-5 text-slate-300">
-        custom phone case user-friendly e-commerce platform built with Next.js
-        for customizing and purchasing phone cases. Users can upload photos,
-        preview their designs, and leave reviews. Implemented with React
-        components, Tailwind CSS, and optimized image handling. Set up with
-        ESLint, environment variables, and comprehensive git configuration.
-        Supports multiple package managers for development.
+        Custom phone case user-friendly e-commerce platform built with Next.js.
+        Users can upload photos, preview designs, and leave reviews. Implemented
+        with React components, Tailwind CSS, and optimized image handling.
       </p>
 
       <hr className="mt-5 opacity-30" />
@@ -47,10 +60,11 @@ const page = () => {
         </h1>
       </a>
       <p className="mt-5 text-slate-300">
-        a non-profit organization website built with Next.js. The website is
-        responsive and user-friendly. Provides vital information about the org
-        and more fitures coming soon.
+        A non-profit organization website built with Next.js. The website is
+        responsive and user-friendly, providing vital information about the
+        organization with more features coming soon.
       </p>
+
       <hr className="mt-5 opacity-30" />
       <a
         href="https://gamehub.yynoes.me/"
@@ -62,16 +76,16 @@ const page = () => {
         </h1>
       </a>
       <p className="mt-5 text-slate-300">
-        developed a responsive and user-friendly web application built with
+        Developed a responsive and user-friendly web application built with
         React and Chakra UI, leveraging the RAWG API to fetch and display video
-        game data, implementing features such as search functionality, genre
-        filtering and optimizing performance through code-splitting and lazy
-        loading techniques.
+        game data, implementing features such as search functionality and genre
+        filtering.
       </p>
+
       <hr className="mt-5 opacity-30" />
       <a
         className="hover:text-slate-300"
-        href=" https://indobert.yynoes.me/"
+        href="https://indobert.yynoes.me/"
         target="_blank"
       >
         <h1 className="font-semibold text-2xl mt-5">
@@ -80,9 +94,9 @@ const page = () => {
         </h1>
       </a>
       <p className="mt-5 text-slate-300">
-        an NLP fine tuning model using BERT pre-trained and SVM for detecting
-        Indonesian hate speech tweet with 86% accuracy. Using Python for
-        classify and Next.js for the web app.
+        An NLP fine-tuning model using BERT pre-trained and SVM for detecting
+        Indonesian hate speech tweets with 86% accuracy. Using Python for
+        classification and Next.js for the web app.
       </p>
     </div>
   );
