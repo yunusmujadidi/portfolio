@@ -30,6 +30,8 @@ const page = () => {
         Custom furniture solutions for interiors and exteriors. Specialized in
         high-end hospitality projects, offering bespoke designs and sustainable
         practices. Built with Next.js, Tailwind CSS, Typescript, and Shadcn-ui.
+        Also i&apos;m adding an animation using Framer Motion to make Parallax
+        effect that looks cool!.
       </p>
 
       <hr className="mt-5 opacity-30" />
