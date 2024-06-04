@@ -27,11 +27,11 @@ const page = () => {
         </h1>
       </a>
       <p className="mt-5 text-slate-300">
-        Custom furniture solutions for interiors and exteriors. Specialized in
-        high-end hospitality projects, offering bespoke designs and sustainable
-        practices. Built with Next.js, Tailwind CSS, Typescript, and Shadcn-ui.
-        Also i&apos;m adding an animation using Framer Motion to make Parallax
-        effect that looks cool!.
+        A website for custom furniture solutions for interiors and exteriors.
+        Specialized in high-end hospitality projects, offering bespoke designs
+        and sustainable practices. Built with Next.js, Tailwind CSS, Typescript,
+        and Shadcn-ui. Also i&apos;m adding an animation using Framer Motion to
+        make Parallax effect that looks cool!.
       </p>
 
       <hr className="mt-5 opacity-30" />
