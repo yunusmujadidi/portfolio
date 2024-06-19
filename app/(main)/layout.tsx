@@ -1,15 +1,16 @@
 import type { Metadata } from "next";
 import { Bricolage_Grotesque } from "next/font/google";
 import localFont from "next/font/local";
-import "./globals.css";
+import "./../globals.css";
 import { cn } from "@/lib/utils";
 import { ViewTransitions } from "next-view-transitions";
-import Navbar from "./Navbar";
+import Navbar from "../Navbar";
 import { Analytics } from "@vercel/analytics/react";
+import { usePathname } from "next/navigation";
 
 const MainFont = Bricolage_Grotesque({ subsets: ["latin"] });
 const PantonFont = localFont({
-  src: "../public/panton.ttf",
+  src: "../../public/panton.ttf",
   variable: "--font-panton",
 });
 export const metadata: Metadata = {
