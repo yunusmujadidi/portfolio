@@ -23,7 +23,7 @@ export default function Home() {
         hello there, i&apos;m Yunus 👋{" "}
       </h1>
       <div>
-        <p className="mt-10 tracking-wider font-light text-balance text-slate-300">
+        <p className="mt-10 tracking-wider leading-7 font-light text-balance text-slate-300">
           passionate and dedicated fresh graduate CS major from Universitas
           Negeri Semarang as a front-end dev. With a strong foundation in
           programming principles and web development technologies, I am very
@@ -56,13 +56,13 @@ export default function Home() {
           experiences, I have honed my skills in front-end and back-end
           development, version control, problem-solving, and collaboration.
         </p>
-        <p className="mt-10 tracking-wider font-light text-balance text-slate-300">
+        <p className="mt-10 tracking-wider leading-7 font-light text-balance text-slate-300">
           i am driven by a desire to contribute to dynamic teams, continuously
           learn and grow as a software engineer, and create wonderful products
           and i am currently seeking opportunities to work with talented
           individuals or companies to build innovative and impactful products.
         </p>
-        <p className="mt-10 tracking-wider font-light text-balance text-slate-300">
+        <p className="mt-10 tracking-wider leading-7 font-light text-balance text-slate-300">
           in addition to my skills and experience, I also have working on
           various{" "}
           <Link className=" text-white hover:underline" href="/projects">

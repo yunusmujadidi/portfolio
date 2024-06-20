@@ -23,9 +23,9 @@ const page = () => {
               <input
                 type="email"
                 placeholder="Enter your email address"
-                className="p-2 px-4 text-center rounded-sm bg-zinc-800 border border-zinc-600 focus:outline-none focus:border-zinc-400 focus:placeholder:text-zinc-600"
+                className="md:text-sm p-2 px-4 text-center rounded-sm bg-zinc-800 border border-zinc-600 focus:outline-none focus:border-zinc-400 focus:placeholder:text-zinc-600"
               />
-              <button className="px-5 py-3 text-xs rounded-md text-zinc-800 bg-lime-500 hover:bg-lime-700 hover:text-white duration-200">
+              <button className="md:text-sm px-5 py-3 rounded-md text-zinc-800 bg-lime-500 hover:bg-lime-700 hover:text-white duration-200">
                 Subscribe
               </button>
             </div>

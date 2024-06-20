@@ -9,7 +9,7 @@ export const metadata = {
 
 const page = () => {
   return (
-    <div className="text-white tracking-wide mb-10 lowercase">
+    <div className="text-white tracking-wide leading-7 mb-10 lowercase">
       <h1 className="font-semibold text-2xl">my projects and portfolio</h1>
       <p className="mt-10 text-slate-300">
         on my journey i have built some projects as my exercises and some of my
@@ -22,7 +22,7 @@ const page = () => {
         className="hover:text-slate-300"
         target="_blank"
       >
-        <h1 className="font-semibold text-2xl mt-5">
+        <h1 className="font-semibold text-xl mt-12">
           KayuKaya Living <ArrowUpRight className="w-3 h-3 inline mb-3" />
         </h1>
       </a>
@@ -40,7 +40,7 @@ const page = () => {
         className="hover:text-slate-300"
         target="_blank"
       >
-        <h1 className="font-semibold text-2xl mt-5">
+        <h1 className="font-semibold text-xl mt-5">
           anicase <ArrowUpRight className="w-3 h-3 inline mb-3" />
         </h1>
       </a>
@@ -56,7 +56,7 @@ const page = () => {
         href="https://www.harapancharityfoundation.tech/"
         target="_blank"
       >
-        <h1 className="font-semibold text-2xl mt-5">
+        <h1 className="font-semibold text-xl mt-5">
           harapancharityfoundation website{" "}
           <ArrowUpRight className="w-3 h-3 inline mb-3" />
         </h1>
@@ -73,7 +73,7 @@ const page = () => {
         className="hover:text-slate-300"
         target="_blank"
       >
-        <h1 className="font-semibold text-2xl mt-5">
+        <h1 className="font-semibold text-xl mt-5">
           game-hub <ArrowUpRight className="w-3 h-3 inline mb-3" />
         </h1>
       </a>
@@ -90,7 +90,7 @@ const page = () => {
         href="https://indobert.yynoes.me/"
         target="_blank"
       >
-        <h1 className="font-semibold text-2xl mt-5">
+        <h1 className="font-semibold text-xl mt-5">
           indonesia hatespeech detection{" "}
           <ArrowUpRight className="w-3 h-3 inline mb-3" />
         </h1>
