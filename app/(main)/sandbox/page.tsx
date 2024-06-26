@@ -26,6 +26,14 @@ const page = () => {
           pricing grid
         </Link>
       </div>
+      <div>
+        <Link
+          className="text-slate-300 hover:text-slate-400"
+          href="/component/product-modal"
+        >
+          product modal
+        </Link>
+      </div>
     </div>
   );
 };
