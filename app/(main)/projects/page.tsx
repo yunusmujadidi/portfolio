@@ -72,7 +72,7 @@ const ProjectsPage = () => {
 
       {projects.map((project, index) => (
         <div key={index}>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center justify-between">
             <a
               href={project.link}
               className="hover:text-slate-300"

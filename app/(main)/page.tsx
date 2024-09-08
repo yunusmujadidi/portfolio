@@ -13,22 +13,22 @@ import Badge from "@/components/Badge";
 
 export const metadata = {
   title: "Home",
-  description: "Yunus Mujadidi Portfolio",
+  description: "Ahmad Yunus Mujadidi Portfolio",
 };
 
 export default function Home() {
   return (
     <div className="text-white mb-10">
       <h1 className="font-semibold text-2xl tracking-tighter">
-        hello there, i&apos;m Yunus 👋{" "}
+        Hello there, I&apos;m Yunus 👋{" "}
       </h1>
       <div>
         <p className="mt-10 tracking-wider leading-7 font-light text-balance text-slate-300">
-          passionate and dedicated fresh graduate CS major from Universitas
-          Negeri Semarang as a front-end dev. With a strong foundation in
-          programming principles and web development technologies, I am very
-          confident in building modern and responsive web applications using
-          cutting-edge frameworks like{" "}
+          passionate and dedicated informatics engineering student from
+          Universitas Negeri Semarang as a front-end dev. With a strong
+          foundation in programming principles and web development technologies,
+          I am very confident in building modern and responsive web applications
+          using cutting-edge frameworks like{" "}
           <Badge href="https://react.dev">
             <svg
               width="14"
@@ -46,15 +46,16 @@ export default function Home() {
             <Image
               alt="Next.js logomark"
               src="/next-logo.svg"
-              className="!mr-1 "
+              className="!mr-1"
               width="14"
               height="14"
             />
             Next.js
           </Badge>{" "}
-          . Throughout my academic journey, online courses and internship
-          experiences, I have honed my skills in front-end and back-end
-          development, version control, problem-solving, and collaboration.
+          along with back-end technologies like Node.js and Prisma. Throughout
+          my academic journey, online courses and internship experiences, I have
+          honed my skills in front-end and back-end development, version
+          control, problem-solving, and collaboration.
         </p>
         <p className="mt-10 tracking-wider leading-7 font-light text-balance text-slate-300">
           i am driven by a desire to contribute to dynamic teams, continuously
@@ -86,9 +87,7 @@ export default function Home() {
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=yunusmujadidi@gmail.com">
               <Mail className=" transition-all duration-300 cursor-pointer text-white hover:text-slate-100/70" />
             </a>
-            <a href="http://linkedin.com/in/yunusmujadidi" target="_blank">
-              <Linkedin className=" transition-all duration-300 cursor-pointer text-white hover:text-slate-100/70" />
-            </a>
+
             <a href="http://github.com/yunusmujadidi" target="_blank">
               <Github className=" transition-all duration-300 cursor-pointer text-white hover:text-slate-100/70" />
             </a>
