@@ -21,7 +21,7 @@ const ProjectsPage = () => {
       title: "Rent App",
       description:
         "An Airbnb clone built with Next.js, TypeScript, and Prisma with MongoDB. Implemented user authentication, property listings, reservation system, interactive map, favorite listings, and filter search. Utilized server actions, image upload with Cloudinary, and real-time updates using React Server Components.",
-      link: "https://airbnb.vercel.app/",
+      link: "https://airbnb.yynoes.me/",
       github: "https://github.com/yunusmujadidi/airbnb",
     },
 
