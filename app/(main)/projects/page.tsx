@@ -1,107 +1,103 @@
 import React from "react";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, Github } from "lucide-react";
 
 export const metadata = {
-  title: "my projects",
+  title: "My Projects",
   description:
-    "i am a software engineer and a self-taught designer. i am passionate about building things that live on the internet.",
+    "Showcasing my web development projects using Next.js, React, and Tailwind CSS",
 };
 
-const page = () => {
+const ProjectsPage = () => {
+  const projects = [
+    {
+      title: "KayuKaya Living",
+      description:
+        "A modern and responsive website for a furniture company, built with Next.js, TypeScript, and Tailwind CSS. Implemented dynamic project showcase, company information, and custom product catalog. Utilized Framer Motion for smooth animations and optimized performance through lazy loading techniques.",
+      link: "https://kayukaya.yynoes.me/",
+      github: "https://github.com/yunusmujadidi/kayukaya-living",
+    },
+
+    {
+      title: "Rent App",
+      description:
+        "An Airbnb clone built with Next.js, TypeScript, and Prisma with MongoDB. Implemented user authentication, property listings, reservation system, interactive map, favorite listings, and filter search. Utilized server actions, image upload with Cloudinary, and real-time updates using React Server Components.",
+      link: "https://airbnb.vercel.app/",
+      github: "https://github.com/yunusmujadidi/airbnb",
+    },
+
+    {
+      title: "Personal Web",
+      description:
+        "A modern and responsive personal website using Next.js for server-side rendering and static site generation. Showcases skills, projects, and experience in a visually appealing and user-friendly manner.",
+      link: "https://yynoes.me/",
+      github: "https://github.com/yunusmujadidi/portfolio",
+    },
+    {
+      title: "Indonesia Hate Speech Detection",
+      description:
+        "An NLP fine-tuning model using BERT pre-trained and SVM for detecting Indonesian hate speech tweets with 86% accuracy. Built with Python for classification and streamlit for the web app.",
+      link: "https://yunusmujadidi-bert-hatespeech-app-385k6r.streamlit.app/",
+      github: "https://github.com/yunusmujadidi/bert-hatespeech",
+    },
+    {
+      title: "Anicase",
+      description: " Custom phone case user-friendly e-commerce ui design",
+      link: "https://anicase.yynoes.me/",
+      github: "https://github.com/yunusmujadidi/anicase",
+    },
+    {
+      title: "Game Hub",
+      description:
+        "A responsive and user-friendly web application using React and Chakra UI. Leveraged the RAWG API to fetch and display video game data, implementing search functionality and genre filtering. Optimized performance through code-splitting and lazy loading techniques.",
+      link: "https://game-hub-chi-peach.vercel.app/",
+      github: "https://github.com/yunusmujadidi/game-hub",
+    },
+    {
+      title: "KayuKaya Blog",
+      description:
+        "A feature-rich blog application using Next.js, React, and Prisma. Implemented user authentication and authorization with Auth.js (NextAuth), seamless image uploads, and a rich text editor. Designed a responsive and intuitive user interface using shadcn and Tailwind CSS.",
+      link: "",
+      github: "https://github.com/yunusmujadidi/kayukaya-blog",
+    },
+  ];
+
   return (
     <div className="text-white tracking-wide leading-7 mb-10 lowercase">
-      <h1 className="font-semibold text-2xl">my projects and portfolio</h1>
+      <h1 className="font-semibold text-2xl">My Projects</h1>
       <p className="mt-10 text-slate-300">
-        on my journey i have built some projects as my exercises and some of my
-        personal projects. i have also built some projects for my clients. here
-        are some of my projects and portfolio.
+        Showcasing my web development projects built with Next.js and Tailwind
+        CSS. These projects demonstrate my skills in building modern,
+        responsive, and feature-rich applications.
       </p>
 
-      <a
-        href="https://kayukaya.yynoes.me/"
-        className="hover:text-slate-300"
-        target="_blank"
-      >
-        <h1 className="font-semibold text-xl mt-12">
-          KayuKaya Living <ArrowUpRight className="w-3 h-3 inline mb-3" />
-        </h1>
-      </a>
-      <p className="mt-5 text-slate-300">
-        A website for custom furniture solutions for interiors and exteriors.
-        Specialized in high-end hospitality projects, offering bespoke designs
-        and sustainable practices. Built with Next.js, Tailwind CSS, Typescript,
-        and Shadcn-ui. Also i&apos;m adding an animation using Framer Motion to
-        make Parallax effect that looks cool!.
-      </p>
-
-      <hr className="mt-5 opacity-30" />
-      <a
-        href="https://anicase.yynoes.me/"
-        className="hover:text-slate-300"
-        target="_blank"
-      >
-        <h1 className="font-semibold text-xl mt-5">
-          anicase <ArrowUpRight className="w-3 h-3 inline mb-3" />
-        </h1>
-      </a>
-      <p className="mt-5 text-slate-300">
-        Custom phone case user-friendly e-commerce platform built with Next.js.
-        Users can upload photos, preview designs, and leave reviews. Implemented
-        with React components, Tailwind CSS, and optimized image handling.
-      </p>
-
-      <hr className="mt-5 opacity-30" />
-      <a
-        className="hover:text-slate-300"
-        href="https://www.harapancharityfoundation.tech/"
-        target="_blank"
-      >
-        <h1 className="font-semibold text-xl mt-5">
-          harapancharityfoundation website{" "}
-          <ArrowUpRight className="w-3 h-3 inline mb-3" />
-        </h1>
-      </a>
-      <p className="mt-5 text-slate-300">
-        A non-profit organization website built with Next.js. The website is
-        responsive and user-friendly, providing vital information about the
-        organization with more features coming soon.
-      </p>
-
-      <hr className="mt-5 opacity-30" />
-      <a
-        href="https://gamehub.yynoes.me/"
-        className="hover:text-slate-300"
-        target="_blank"
-      >
-        <h1 className="font-semibold text-xl mt-5">
-          game-hub <ArrowUpRight className="w-3 h-3 inline mb-3" />
-        </h1>
-      </a>
-      <p className="mt-5 text-slate-300">
-        Developed a responsive and user-friendly web application built with
-        React and Chakra UI, leveraging the RAWG API to fetch and display video
-        game data, implementing features such as search functionality and genre
-        filtering.
-      </p>
-
-      <hr className="mt-5 opacity-30" />
-      <a
-        className="hover:text-slate-300"
-        href="https://indobert.yynoes.me/"
-        target="_blank"
-      >
-        <h1 className="font-semibold text-xl mt-5">
-          indonesia hatespeech detection{" "}
-          <ArrowUpRight className="w-3 h-3 inline mb-3" />
-        </h1>
-      </a>
-      <p className="mt-5 text-slate-300">
-        An NLP fine-tuning model using BERT pre-trained and SVM for detecting
-        Indonesian hate speech tweets with 86% accuracy. Using Python for
-        classification and Next.js for the web app.
-      </p>
+      {projects.map((project, index) => (
+        <div key={index}>
+          <div className="flex items-center gap-4">
+            <a
+              href={project.link}
+              className="hover:text-slate-300"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h2 className="font-semibold text-xl mt-12">
+                {project.title} <ArrowUpRight className="w-3 h-3 inline mb-3" />
+              </h2>
+            </a>
+            <a
+              href={project.github}
+              className="hover:text-slate-300"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Github className="w-5 mt-10" />
+            </a>
+          </div>
+          <p className="mt-5 text-slate-300">{project.description}</p>
+          <hr className="mt-5 opacity-30" />
+        </div>
+      ))}
     </div>
   );
 };
 
-export default page;
+export default ProjectsPage;
