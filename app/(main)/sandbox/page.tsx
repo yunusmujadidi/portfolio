@@ -2,40 +2,59 @@ import { Link } from "next-view-transitions";
 import React from "react";
 
 export const metadata = {
-  title: "soon",
-  description: "coming soon",
+  title: "Sandbox",
+  description: "A collection of UI components and design experiments.",
 };
 
-const page = () => {
+const components = [
+  {
+    name: "Subscription Card",
+    path: "/component/sub-card",
+    description:
+      "A visually appealing subscription card component with a clean layout and smooth hover effects.",
+  },
+  {
+    name: "Pricing Grid",
+    path: "/component/pricing-grid",
+    description:
+      "A responsive pricing grid component showcasing different pricing tiers and their features.",
+  },
+  {
+    name: "Product Modal",
+    path: "/component/product-modal",
+    description:
+      "An interactive product modal component with a sleek design and detailed product information.",
+  },
+  {
+    name: "Image Gallery",
+    path: "/component/image-gallery",
+    description:
+      "A dynamic image gallery component with search functionality and a modern grid layout.",
+  },
+];
+
+const SandboxPage = () => {
   return (
     <div className="text-white tracking-wide mb-10 lowercase">
       <h1 className="font-semibold text-2xl mb-12">my sandbox</h1>
-      <div>
-        <Link
-          className="text-slate-300 hover:text-slate-400"
-          href="/component/sub-card"
-        >
-          subscription card
-        </Link>
-      </div>
-      <div>
-        <Link
-          className="text-slate-300 hover:text-slate-400"
-          href="/component/pricing-grid"
-        >
-          pricing grid
-        </Link>
-      </div>
-      <div>
-        <Link
-          className="text-slate-300 hover:text-slate-400"
-          href="/component/product-modal"
-        >
-          product modal
-        </Link>
+      <p className="text-slate-300 mb-8">Welcome to my sandbox!</p>
+      <div className="space-y-4">
+        {components.map((component, index) => (
+          <div key={index}>
+            <Link
+              className="text-slate-300 hover:text-slate-400"
+              href={component.path}
+            >
+              {component.name}
+            </Link>
+            <p className="text-slate-400 text-sm mt-1">
+              {component.description}
+            </p>
+          </div>
+        ))}
       </div>
     </div>
   );
 };
 
-export default page;
+export default SandboxPage;

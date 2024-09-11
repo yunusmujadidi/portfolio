@@ -33,7 +33,7 @@ export default function MainLayout({
         className={cn(
           MainFont.className,
           PantonFont.variable,
-          "max-w-2xl flex flex-col md:flex-row mx-4 mt-8 lg:mx-auto"
+          "max-w-2xl flex flex-col md:flex-row mt-8 mx-auto justify-center items-center lowercase"
         )}
       >
         <div className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">

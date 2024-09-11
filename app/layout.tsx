@@ -5,7 +5,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-[#111010]">
+      <body className="bg-[#111010] ">
         {/* Layout UI */}
         <main>{children}</main>
       </body>
