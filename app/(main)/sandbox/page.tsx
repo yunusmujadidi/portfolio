@@ -31,6 +31,12 @@ const components = [
     description:
       "A dynamic image gallery component with search functionality and a modern grid layout.",
   },
+  {
+    name: "Login Modal",
+    path: "/component/login-modal",
+    description:
+      "A modern and responsive login modal with social login options and a sleek design.",
+  },
 ];
 
 const SandboxPage = () => {

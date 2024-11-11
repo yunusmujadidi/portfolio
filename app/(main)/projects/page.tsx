@@ -10,11 +10,10 @@ export const metadata = {
 const ProjectsPage = () => {
   const projects = [
     {
-      title: "KayuKaya Living",
-      description:
-        "A modern and responsive website for a furniture company, built with Next.js, TypeScript, and Tailwind CSS. Implemented dynamic project showcase, company information, and custom product catalog. Utilized Framer Motion for smooth animations and optimized performance through lazy loading techniques.",
-      link: "https://kayukaya.yynoes.me/",
-      github: "https://github.com/yunusmujadidi/kayukaya-living",
+      title: "Finance App",
+      description: "Finance Fullstack app using next 14, prisma, and shadcn.",
+      link: "https://finance.yynoes.me/",
+      github: "https://github.com/yunusmujadidi/finance-app",
     },
 
     {
@@ -51,6 +50,13 @@ const ProjectsPage = () => {
         "A responsive and user-friendly web application using React and Chakra UI. Leveraged the RAWG API to fetch and display video game data, implementing search functionality and genre filtering. Optimized performance through code-splitting and lazy loading techniques.",
       link: "https://game-hub-chi-peach.vercel.app/",
       github: "https://github.com/yunusmujadidi/game-hub",
+    },
+    {
+      title: "KayuKaya Living",
+      description:
+        "A modern and responsive website for a furniture company, built with Next.js, TypeScript, and Tailwind CSS. Implemented dynamic project showcase, company information, and custom product catalog. Utilized Framer Motion for smooth animations and optimized performance through lazy loading techniques.",
+      link: "https://kayukaya.yynoes.me/",
+      github: "https://github.com/yunusmujadidi/kayukaya-living",
     },
     {
       title: "KayuKaya Blog",
