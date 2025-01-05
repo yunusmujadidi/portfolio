@@ -10,6 +10,13 @@ export const metadata = {
 const ProjectsPage = () => {
   const projects = [
     {
+      title: "E-Commerce App",
+      description:
+        "Fullstack e-commerce app with cms using next js featuring server action, authentication (OAuth and email password credentials), search filtering parameters, next js caching, and shopping cart with stripe payment integration. built using next 15, prisma with postgres, shadcn, tailwind css and zod for global state",
+      link: "https://commerce.yynoes.me/",
+      github: "https://github.com/yunusmujadidi/commerce-app",
+    },
+    {
       title: "Finance App",
       description: "Finance Fullstack app using next 14, prisma, and shadcn.",
       link: "https://finance.yynoes.me/",
