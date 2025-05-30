@@ -4,7 +4,7 @@ import localFont from "next/font/local";
 import "./../globals.css";
 import { cn } from "@/lib/utils";
 import { ViewTransitions } from "next-view-transitions";
-import Navbar from "../Navbar";
+import Navbar from "../navbar";
 import { Analytics } from "@vercel/analytics/react";
 
 const MainFont = Bricolage_Grotesque({ subsets: ["latin"] });
