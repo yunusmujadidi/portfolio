@@ -13,13 +13,13 @@ const ProjectsPage = () => {
       title: "E-Commerce App",
       description:
         "Fullstack e-commerce app with cms using next js featuring server action, authentication (OAuth and email password credentials), search filtering parameters, next js caching, and shopping cart with stripe payment integration. built using next 15, prisma with postgres, shadcn, tailwind css and zod for global state",
-      link: "https://commerce.yynoes.me/",
+      link: "https://commerce.yynn.me/",
       github: "https://github.com/yunusmujadidi/commerce-app",
     },
     {
       title: "Finance App",
       description: "Finance Fullstack app using next 14, prisma, and shadcn.",
-      link: "https://finance.yynoes.me/",
+      link: "https://finance.yynn.me/",
       github: "https://github.com/yunusmujadidi/finance-app",
     },
 
@@ -27,7 +27,7 @@ const ProjectsPage = () => {
       title: "Rent App",
       description:
         "An Airbnb clone built with Next.js, TypeScript, and Prisma with MongoDB. Implemented user authentication, property listings, reservation system, interactive map, favorite listings, and filter search. Utilized server actions, image upload with Cloudinary, and real-time updates using React Server Components.",
-      link: "https://airbnb.yynoes.me/",
+      link: "https://airbnb.yynn.me/",
       github: "https://github.com/yunusmujadidi/airbnb",
     },
 
@@ -35,7 +35,7 @@ const ProjectsPage = () => {
       title: "Personal Web",
       description:
         "A modern and responsive personal website using Next.js for server-side rendering and static site generation. Showcases skills, projects, and experience in a visually appealing and user-friendly manner.",
-      link: "https://yynoes.me/",
+      link: "https://yynn.me/",
       github: "https://github.com/yunusmujadidi/portfolio",
     },
     {
@@ -48,7 +48,7 @@ const ProjectsPage = () => {
     {
       title: "Anicase",
       description: " Custom phone case user-friendly e-commerce ui design",
-      link: "https://anicase.yynoes.me/",
+      link: "https://anicase.yynn.me/",
       github: "https://github.com/yunusmujadidi/anicase",
     },
     {
@@ -62,7 +62,7 @@ const ProjectsPage = () => {
       title: "KayuKaya Living",
       description:
         "A modern and responsive website for a furniture company, built with Next.js, TypeScript, and Tailwind CSS. Implemented dynamic project showcase, company information, and custom product catalog. Utilized Framer Motion for smooth animations and optimized performance through lazy loading techniques.",
-      link: "https://kayukaya.yynoes.me/",
+      link: "https://kayukaya.yynn.me/",
       github: "https://github.com/yunusmujadidi/kayukaya-living",
     },
     {

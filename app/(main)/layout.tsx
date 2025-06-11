@@ -3,8 +3,7 @@ import { Bricolage_Grotesque } from "next/font/google";
 import localFont from "next/font/local";
 import "./../globals.css";
 import { cn } from "@/lib/utils";
-import { ViewTransitions } from "next-view-transitions";
-import Navbar from "../navbar";
+import Navbar from "../../components/navbar";
 import { Analytics } from "@vercel/analytics/react";
 
 const MainFont = Bricolage_Grotesque({ subsets: ["latin"] });
@@ -13,10 +12,10 @@ const PantonFont = localFont({
   variable: "--font-panton",
 });
 export const metadata: Metadata = {
-  metadataBase: new URL("https://yynoes.me"),
+  metadataBase: new URL("https://yynn.me"),
   title: {
-    default: "yynoes portfolio",
-    template: "%s | yynoes portfolio",
+    default: "yynn portfolio",
+    template: "%s | yynn portfolio",
   },
   description: "Software Engineer.",
 };
@@ -27,20 +26,18 @@ export default function MainLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <ViewTransitions>
-      <div
-        className={cn(
-          MainFont.className,
-          PantonFont.variable,
-          "max-w-2xl flex flex-col md:flex-row mx-4 mt-8 sm:mx-auto"
-        )}
-      >
-        <div className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
-          <Navbar />
-          {children}
-          <Analytics />
-        </div>
+    <div
+      className={cn(
+        MainFont.className,
+        PantonFont.variable,
+        "max-w-2xl flex flex-col md:flex-row mx-4 mt-8 sm:mx-auto"
+      )}
+    >
+      <div className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
+        <Navbar />
+        {children}
+        <Analytics />
       </div>
-    </ViewTransitions>
+    </div>
   );
 }
