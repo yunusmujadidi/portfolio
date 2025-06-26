@@ -3,18 +3,9 @@
 import { GithubIcon } from "lucide-react";
 import { usePathname } from "next/navigation";
 import { Link } from "next-view-transitions";
-import React from "react";
-import { Moon, Sun } from "lucide-react";
 
 const Navbar = () => {
   const pathname = usePathname();
-  const [isDark, setIsDark] = React.useState(false);
-
-  React.useEffect(() => {
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      setIsDark(true);
-    }
-  }, []);
 
   const isActive = (path: string) => {
     return pathname === path;
@@ -64,17 +55,6 @@ const Navbar = () => {
         >
           <GithubIcon />
         </a>
-        {isDark ? (
-          <Sun
-            className=" transition-all duration-300 cursor-pointer text-white hover:text-slate-100/70"
-            onClick={() => setIsDark(!isDark)}
-          />
-        ) : (
-          <Moon
-            className=" transition-all duration-300 cursor-pointer text-white hover:text-slate-100/70"
-            onClick={() => setIsDark(!isDark)}
-          />
-        )}
       </div>
     </div>
   );

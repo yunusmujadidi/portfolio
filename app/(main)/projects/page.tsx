@@ -12,65 +12,73 @@ const ProjectsPage = () => {
     {
       title: "E-Commerce App",
       description:
-        "Fullstack e-commerce app with cms using next js featuring server action, authentication (OAuth and email password credentials), search filtering parameters, next js caching, and shopping cart with stripe payment integration. built using next 15, prisma with postgres, shadcn, tailwind css and zod for global state",
-      link: "https://commerce.yynoes.me/",
+        "Fullstack e-commerce platform with admin dashboard, OAuth authentication, Stripe payments, and advanced search filtering. Built with Next.js 15, Prisma, PostgreSQL.",
+      link: "https://commerce.yynn.me/",
       github: "https://github.com/yunusmujadidi/commerce-app",
     },
     {
       title: "Finance App",
-      description: "Finance Fullstack app using next 14, prisma, and shadcn.",
-      link: "https://finance.yynoes.me/",
+      description:
+        "Personal finance management app with expense tracking, budget visualization, and analytics dashboard. Next.js 14, Prisma, shadcn/ui.",
+      link: "https://finance.yynn.me/",
       github: "https://github.com/yunusmujadidi/finance-app",
     },
-
     {
       title: "Rent App",
       description:
-        "An Airbnb clone built with Next.js, TypeScript, and Prisma with MongoDB. Implemented user authentication, property listings, reservation system, interactive map, favorite listings, and filter search. Utilized server actions, image upload with Cloudinary, and real-time updates using React Server Components.",
-      link: "https://airbnb.yynoes.me/",
+        "Airbnb clone with property listings, reservation system, interactive maps, and real-time updates. Next.js, TypeScript, Prisma, MongoDB.",
+      link: "https://airbnb.yynn.me/",
       github: "https://github.com/yunusmujadidi/airbnb",
     },
-
     {
-      title: "Personal Web",
+      title: "KayuKaya Living",
       description:
-        "A modern and responsive personal website using Next.js for server-side rendering and static site generation. Showcases skills, projects, and experience in a visually appealing and user-friendly manner.",
-      link: "https://yynoes.me/",
-      github: "https://github.com/yunusmujadidi/portfolio",
+        "Furniture company website with dynamic showcases, smooth animations, and SEO optimization. Next.js, TypeScript, Framer Motion.",
+      link: "https://kayukaya.yynn.me/",
+      github: "https://github.com/yunusmujadidi/kayukaya-living",
+    },
+    {
+      title: "Proposal Tracker",
+      description:
+        "Internal business tool for proposal management and tracking with dashboard analytics. Next.js, TypeScript, Prisma, shadcn/ui.",
+      link: "https://proposal.yynn.me/",
+      github: "https://github.com/yunusmujadidi/proposal-tracker",
+    },
+    {
+      title: "Little Lemon Restaurant (UX/UI Design)",
+      description:
+        "Complete UX/UI design process from research to high-fidelity prototypes for restaurant booking system. Created as Meta Frontend Certificate submission.",
+      link: "https://www.figma.com/file/CrHo5f16MesKTc92g3t1Bv/meta-UX-UI-submission",
+      github:
+        "https://www.figma.com/file/CrHo5f16MesKTc92g3t1Bv/meta-UX-UI-submission",
+    },
+    {
+      title: "Little Lemon Restaurant (Frontend)",
+      description:
+        "Restaurant website with table booking, form validation, accessibility features, and responsive design. React, TypeScript, TailwindCSS, TanStack Router.",
+      link: "https://meta-frontend-capstone-pi.vercel.app/",
+      github: "https://github.com/yunusmujadidi/meta-frontend-capstone",
     },
     {
       title: "Indonesia Hate Speech Detection",
       description:
-        "An NLP fine-tuning model using BERT pre-trained and SVM for detecting Indonesian hate speech tweets with 86% accuracy. Built with Python for classification and streamlit for the web app.",
-      link: "https://yunusmujadidi-bert-hatespeech-app-385k6r.streamlit.app/",
-      github: "https://github.com/yunusmujadidi/bert-hatespeech",
+        "Fine-tuned IndoBERT model for Indonesian hate speech detection with 89% accuracy using next.js.",
+      link: "https://indobert.yynn.me/",
+      github: "https://github.com/yunusmujadidi/bert-hatespeech-id-next",
     },
     {
       title: "Anicase",
-      description: " Custom phone case user-friendly e-commerce ui design",
-      link: "https://anicase.yynoes.me/",
+      description:
+        "Custom phone case e-commerce platform with modern UI design and seamless user experience. React, TypeScript.",
+      link: "https://anicase.yynn.me/",
       github: "https://github.com/yunusmujadidi/anicase",
     },
     {
       title: "Game Hub",
       description:
-        "A responsive and user-friendly web application using React and Chakra UI. Leveraged the RAWG API to fetch and display video game data, implementing search functionality and genre filtering. Optimized performance through code-splitting and lazy loading techniques.",
+        "Video game discovery platform with RAWG API integration, search functionality, and performance optimization. React, Chakra UI.",
       link: "https://game-hub-chi-peach.vercel.app/",
       github: "https://github.com/yunusmujadidi/game-hub",
-    },
-    {
-      title: "KayuKaya Living",
-      description:
-        "A modern and responsive website for a furniture company, built with Next.js, TypeScript, and Tailwind CSS. Implemented dynamic project showcase, company information, and custom product catalog. Utilized Framer Motion for smooth animations and optimized performance through lazy loading techniques.",
-      link: "https://kayukaya.yynoes.me/",
-      github: "https://github.com/yunusmujadidi/kayukaya-living",
-    },
-    {
-      title: "KayuKaya Blog",
-      description:
-        "A feature-rich blog application using Next.js, React, and Prisma. Implemented user authentication and authorization with Auth.js (NextAuth), seamless image uploads, and a rich text editor. Designed a responsive and intuitive user interface using shadcn and Tailwind CSS.",
-      link: "",
-      github: "https://github.com/yunusmujadidi/kayukaya-blog",
     },
   ];
 

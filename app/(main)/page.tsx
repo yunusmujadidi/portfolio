@@ -24,7 +24,7 @@ export default function Home() {
       </h1>
       <div>
         <p className="mt-10 tracking-wider leading-7 font-light text-balance text-slate-300">
-          passionate and dedicated informatics engineering student from
+          Passionate and dedicated recent informatics engineering graduate from
           Universitas Negeri Semarang as a front-end dev. With a strong
           foundation in programming principles and web development technologies,
           I am very confident in building modern and responsive web applications
@@ -52,19 +52,19 @@ export default function Home() {
             />
             Next.js
           </Badge>{" "}
-          along with back-end technologies like Node.js and Prisma. Throughout
-          my academic journey, online courses and internship experiences, I have
-          honed my skills in front-end and back-end development, version
-          control, problem-solving, and collaboration.
+          along with back-end technologies like Node.js . Throughout my academic
+          journey, online courses and internship experiences, I have honed my
+          skills in front-end and back-end development, version control,
+          problem-solving, and collaboration.
         </p>
         <p className="mt-10 tracking-wider leading-7 font-light text-balance text-slate-300">
-          i am driven by a desire to contribute to dynamic teams, continuously
-          learn and grow as a software engineer, and create wonderful products
-          and i am currently seeking opportunities to work with talented
-          individuals or companies to build innovative and impactful products.
+          I am driven by a passion for creating innovative solutions and
+          contributing to dynamic teams. Currently seeking opportunities to work
+          with talented individuals and companies to build impactful products
+          that make a difference.
         </p>
         <p className="mt-10 tracking-wider leading-7 font-light text-balance text-slate-300">
-          in addition to my skills and experience, I also have working on
+          In addition to my skills and experience, I have been working on
           various{" "}
           <Link className=" text-white hover:underline" href="/projects">
             projects
