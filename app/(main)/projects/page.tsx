@@ -24,6 +24,13 @@ const ProjectsPage = () => {
       github: "https://github.com/yunusmujadidi/finance-app",
     },
     {
+      title: "Rent App",
+      description:
+        "Airbnb clone with property listings, reservation system, interactive maps, and real-time updates. Next.js, TypeScript, Prisma, MongoDB.",
+      link: "https://airbnb.yynn.me/",
+      github: "https://github.com/yunusmujadidi/property-rent",
+    },
+    {
       title: "KayuKaya Living",
       description:
         "Furniture company website with dynamic showcases, smooth animations, and SEO optimization. Next.js, TypeScript, Framer Motion.",
