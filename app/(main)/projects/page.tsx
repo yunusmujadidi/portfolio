@@ -27,7 +27,7 @@ const ProjectsPage = () => {
       title: "Rent App",
       description:
         "Airbnb clone with property listings, reservation system, interactive maps, and real-time updates. Next.js, TypeScript, Prisma, MongoDB.",
-      link: "https://airbnb.yynn.me/",
+      link: "https://rent.yynn.me/",
       github: "https://github.com/yunusmujadidi/property-rent",
     },
     {
