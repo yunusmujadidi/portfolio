@@ -91,9 +91,7 @@ export default function Home() {
             <a href="http://github.com/yunusmujadidi" target="_blank">
               <Github className=" transition-all duration-300 cursor-pointer text-white hover:text-slate-100/70" />
             </a>
-            <a href="http://x.com/yynoes" target="_blank">
-              <X className=" transition-all duration-300 cursor-pointer text-white hover:text-slate-100/70" />
-            </a>
+           
           </div>
         </div>
       </div>
